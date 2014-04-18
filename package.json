@@ -1,0 +1,18 @@
+{
+  "name": "node-orm2-example",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "ejs": "~0.8.5",
+    "less-middleware": "~0.1.12",
+    "utf8": "~2.0.0",
+    "request": "~2.34.0",
+    "underscore": "~1.6.0",
+    "async": "~0.2.10",
+    "orm": "git://github.com/dresende/node-orm2.git",
+    "sql-ddl-sync": "git://github.com/dresende/node-sql-ddl-sync"
+  }
+}

@@ -1,0 +1,63 @@
+
+
+<div>
+
+  <label>People</label>
+
+  <ul>
+    <% for (var i = 0; i < people.length; i++) { %>
+      <li> <%= people[i] %> </li>
+    <% } %>
+  </ul>
+
+  <form action="/newPerson" method="POST">
+    <label>First Name</label>
+    <input type="text" name="firstName"/>
+    <label>Last Name</label>
+    <input type="text" name="lastName"/>
+    <label>Age</label>
+    <input type="number" name="age"/>
+    <input type="submit" value="submit"/>
+  </form>
+
+</div>
+
+
+<div>
+
+  <label>Assets</label>
+
+  <ul>
+    <% for (var i = 0; i < assets.length; i++) { %>
+      <li> <%= assets[i] %> </li>
+    <% } %>
+  </ul>
+
+  <form action="/newAsset" method="POST">
+    <label>Name</label>
+    <input type="text" name="name"/>
+    <label>Type</label>
+    <input type="text" name="type"/>
+    <input type="submit" value="submit"/>
+  </form>
+
+</div>
+
+
+<div>
+
+  <label>Locales</label>
+
+  <ul>
+    <% for (var i = 0; i < locales.length; i++) { %>
+      <li> <%= people[i] %> </li>
+    <% } %>
+  </ul>
+
+  <form action="/newLocale" method="POST">
+    <label>Name</label>
+    <input type="text" name="name"/>
+    <input type="submit" value="submit"/>
+  </form>
+
+</div>
